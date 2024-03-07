@@ -13,8 +13,8 @@ import { Button } from "$lib/components/ui/button";
 	<nav class="flex items-center  px-5 gap-6"> 
 		<ul class=" items-center hidden md:flex  gap-2">
 			<Button variant="ghost" class="text-neutral-500 p-2 flex gap-1  items-center" href="/"><Home size={18}/> <span>Home</span></Button>
-			<Button variant="ghost" class="text-neutral-500 p-2 flex gap-1  items-center" href="/"><AlignStartVertical size={18}/> <span>Home</span></Button>
-			<Button variant="ghost" class="text-neutral-500 p-2 flex gap-1  items-center" href="/"><BookOpen size={18}/> <span>Home</span></Button>
+			<Button variant="ghost" class="text-neutral-500 p-2 flex gap-1  items-center" href="/"><AlignStartVertical size={18}/> <span>Explore</span></Button>
+			<Button variant="ghost" class="text-neutral-500 p-2 flex gap-1  items-center" href="/"><BookOpen size={18}/> <span>Learn</span></Button>
 		</ul>
 		<Button  size="sm" variant="thick" class="mx-4 justify-between md:flex items-center !hidden gap-5 !px-5">
   <PlusSquare strokeWidth={1.5}  size={18}/>
